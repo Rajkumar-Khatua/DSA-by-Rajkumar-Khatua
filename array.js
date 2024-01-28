@@ -129,5 +129,103 @@ const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // Sort is a method that sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
 // Syntax: arr.sort([compareFunction])
 // Parameters: compareFunction(Optional): Specifies a function that defines the sort order. If omitted, the array elements are converted to strings, then sorted according to each character's Unicode code point value.
-const result = arr.sort((a, b) => a - b);
-console.log(result);
+// const result = arr.sort((a, b) => b - a);
+// console.log(result);
+
+// What is Push?
+// Push is a method that adds one or more elements to the end of an array and returns the new length of the array.
+// Syntax: arr.push(element1[, ...[, elementN]])
+// Parameters: elementN: The elements to add to the end of the array.
+// const result = arr.push(10);
+// console.log(result);
+
+// What is Pop?
+// Pop is a method that removes the last element from an array and returns that element. This method changes the length of the array.
+// Syntax: arr.pop()
+// Parameters: None.
+// const result = arr.pop();
+// console.log(result);
+// console.log(arr);
+
+// What is Shift?
+// Shift is a method that removes the first element from an array and returns that removed element. This method changes the length of the array.
+// Syntax: arr.shift()
+// Parameters: None.
+// const result = arr.shift();
+// console.log(result);
+// console.log(arr);
+
+// What is Unshift?
+// Unshift is a method that adds one or more elements to the beginning of an array and returns the new length of the array.
+// Syntax: arr.unshift(element1[, ...[, elementN]])
+// Parameters: elementN: The elements to add to the front of the array.
+// const result = arr.unshift(10,12,15);
+// console.log(result);
+// console.log(arr);
+
+// What is Fill?
+// Fill is a method that changes all elements in an array to a static value, from a start index (default 0) to an end index (default array.length). It returns the modified array.
+// Syntax: arr.fill(value[, start[, end]])
+// Parameters: value: Value to fill the array with.
+// const result = arr.fill(10,2,5);
+// console.log(result);
+// console.log(arr);
+
+// What is CopyWithin?
+// CopyWithin is a method that shallow copies part of an array to another location in the same array and returns it, without modifying its size.
+// Syntax: arr.copyWithin(target[, start[, end]])
+// Parameters: target: Zero-based index at which to copy the sequence to. If negative, target will be counted from the end.
+// const result = arr.copyWithin(2,4,6);
+// console.log(result);
+
+// What is Flat?
+// Flat is a method that creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+// Syntax: var newArray = arr.flat([depth]);
+// Parameters: depth(Optional): The depth level specifying how deep a nested array structure should be flattened. Defaults to 1.
+// const result = arr.flat(1);
+// console.log(result);
+// console.log(arr)
+
+// What is FlatMap?
+// FlatMap is a method that first maps each element using a mapping function, then flattens the result into a new array. It is identical to a map followed by a flat of depth 1, but flatMap is often quite useful, as merging both into one method is slightly more efficient.
+// Syntax: var new_array = arr.flatMap(function callback(currentValue[, index[, array]]) {
+// return element for new_array
+// }[, thisArg])
+// Parameters: callback: Function that produces an element of the new Array, taking three arguments:
+// currentValue: The current element being processed in the array.
+// const result = arr.flatMap((item) => item * 2);
+// console.log(result);
+// console.log(arr)
+
+// What is From?
+// From is a method that creates a new, shallow-copied Array instance from an array-like or iterable object.
+// Syntax: Array.from(arrayLike[, mapFn[, thisArg]])
+// Parameters: arrayLike: An array-like or iterable object to convert to an array.
+// const result = Array.from(arr);
+// console.log(result);
+
+// What is Of?
+// Of is a method that creates a new Array instance from a variable number of arguments, regardless of number or type of the arguments.
+// Syntax: Array.of(element0[, element1[, ...[, elementN]]])
+// Parameters: elementN: Elements of which to create the array.
+// const result = Array.of(1,2,3,4,5,6);
+// console.log(result);
+
+// What is Concat?
+// Concat is a method that is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.
+// Syntax: var new_array = old_array.concat(value1[, value2[, ...[, valueN]]]])
+// Parameters: valueN: Arrays and/or values to concatenate into a new array. If all valueN parameters are omitted, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.
+// console.log(arr);
+// const result = arr.concat([10, 11, 12]);
+// console.log(result);
+// console.log(arr);
+
+
+
+
+
+// What is Array?
+// Array is a global object that is used in the construction of arrays; which are high-level, list-like objects.
+// Syntax: var fruits = ['Apple', 'Banana'];
+// Parameters: None.
+// console.log(arr);

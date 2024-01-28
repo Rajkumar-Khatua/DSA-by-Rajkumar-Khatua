@@ -1,2 +1,2 @@
-oin();
+op();
 console.log(result);
