@@ -1,0 +1,2 @@
+oin();
+console.log(result);
